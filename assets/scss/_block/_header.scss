@@ -1,0 +1,85 @@
+.header {
+    width: 100%;
+
+    &__wrapper{
+        background: #5B4A58;
+        padding: 10px;
+    }
+
+    &__location{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_item {
+            display: flex;
+            gap: 13px;
+            font-size: 16px;
+            span {
+                line-height: 22px;
+                color: #6AAE55;
+            }
+            a {
+                color: #fff;
+            }
+            .fa-phone {
+                color: #6AAE55;
+            }
+            .fa-cart-arrow-down{
+                color: #6AAE55;
+                font-size: 20px;
+            }
+            .prices{
+                color: #fff;
+            }
+        }
+    }
+
+    // header navigation
+    &__navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+
+        &_list{
+            ul{
+                display: flex;
+                gap: 53px;
+
+                li{
+                        font-size: 14px;
+                        line-height: 19px;
+                        text-transform: uppercase;                    
+                        color: #5B4A58;
+                }
+            }
+        }
+
+        &_dropdown{
+                 font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;            
+                color: #5B4A58;
+        }
+        &_lang{
+                font-size: 14px;
+                line-height: 19px;
+                text-transform: uppercase;
+                color: #5B4A58;
+
+                #ru{
+                    opacity: 0.5;
+                }
+        }
+
+
+    }
+    
+
+   
+}
+
+
+
+
