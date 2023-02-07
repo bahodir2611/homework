@@ -47,6 +47,8 @@
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+}
+.header__navigation_list ul li a {
   color: #5B4A58;
 }
 .header__navigation_dropdown {
