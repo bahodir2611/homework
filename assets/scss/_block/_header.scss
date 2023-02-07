@@ -60,17 +60,36 @@
             }
         }
 
+        &_basket {
+            a{
+                color: #5b4a4a; 
+            }
+        }
         &_dropdown{
                  font-size: 14px;
                 line-height: 19px;
-                text-transform: uppercase;            
-                color: #5B4A58;
+                text-transform: uppercase; 
+                
+                i{
+                    color: #5b4a4a;
+                }
+               a{
+                color: #5b4a4a;
+               }
+        }
+        &_user 
+        i {
+            color: #5b4a4a;
         }
         &_lang{
                 font-size: 14px;
                 line-height: 19px;
                 text-transform: uppercase;
                 color: #5B4A58;
+
+                li{
+                    color: #5B4A58;
+                }
 
                 #ru{
                     opacity: 0.5;

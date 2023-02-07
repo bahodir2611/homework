@@ -51,16 +51,30 @@
 .header__navigation_list ul li a {
   color: #5B4A58;
 }
+.header__navigation_basket a {
+  color: #5b4a4a;
+}
 .header__navigation_dropdown {
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #5B4A58;
+}
+.header__navigation_dropdown i {
+  color: #5b4a4a;
+}
+.header__navigation_dropdown a {
+  color: #5b4a4a;
+}
+.header__navigation_user i {
+  color: #5b4a4a;
 }
 .header__navigation_lang {
   font-size: 14px;
   line-height: 19px;
   text-transform: uppercase;
+  color: #5B4A58;
+}
+.header__navigation_lang li {
   color: #5B4A58;
 }
 .header__navigation_lang #ru {
